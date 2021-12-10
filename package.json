@@ -1,0 +1,41 @@
+{
+  "name": "babysdreams",
+  "version": "1.0.0",
+  "description": "Сайт по продаже детских светильников",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/from0toweb/babysdreams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/from0toweb/babysdreams/issues"
+  },
+  "homepage": "https://github.com/from0toweb/babysdreams#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.27.7",
+    "core-js": "^3.19.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "sass": "^1.44.0",
+    "webpack": "^5.65.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^5.0.0"
+  }
+}
