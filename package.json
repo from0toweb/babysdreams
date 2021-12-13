@@ -37,5 +37,10 @@
     "del": "^6.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-sass": "^5.0.0"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
 }

@@ -82,10 +82,7 @@ function serveSass() {
   return src("./src/sass/**/*.sass", "./src/sass/**/*.scss")
     .pipe(sass())
     .pipe(
-      autoprefixer({
-        browsers: [">0.1%"],
-        cascade: false,
-      })
+      autoprefixer()
     )
     .pipe(dest("./src/css"))
     .pipe(browserSync.stream());
