@@ -81,9 +81,7 @@ function images(done) {
 function serveSass() {
   return src("./src/sass/**/*.sass", "./src/sass/**/*.scss")
     .pipe(sass())
-    .pipe(
-      autoprefixer()
-    )
+    .pipe(autoprefixer())
     .pipe(dest("./src/css"))
     .pipe(browserSync.stream());
 }
